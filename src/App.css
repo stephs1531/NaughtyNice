@@ -25,19 +25,15 @@ body {
   background-color: #7dc7d2;
 }
 .logo-image {
-  max-width: 50%;
-  margin: 0 auto;
+  /* max-width: 50%; */
+  /* margin: 0 auto; */
   filter: drop-shadow(0 0 10px #6daeb9);
 }
 
-.logo-container {
-  padding: 50px;
-  height: 100%;
-}
 
 .svg-button {
   width: 300px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 a:hover path { 
@@ -63,3 +59,53 @@ a:hover path {
   height: 10px;
 }
 
+/* ----------------------------- containers ------------------------------- */
+
+.body-container {
+  margin: 0 auto;
+  height: 100%!;
+  width: 100%;
+  
+}
+
+.main-container {
+  /* width: 50%; */
+  /* margin: 0 auto; */
+  position: fixed!important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.logo-container {
+  margin: 0 auto;
+  padding: 50px;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-container {
+  /* display: flex; */
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .options-container {
+  width: 50%;
+} */
+
+.options-box {
+  width: 160px;
+  padding: 30px;
+  margin: 0 auto;
+}
